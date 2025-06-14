@@ -1,7 +1,0 @@
-Trigger rebuilds using a Netlify Build Hook + scheduler.
-
-
-move everything to page server
-
-because:
- i cant use an api route because it isnt available at build time
