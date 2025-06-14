@@ -6,7 +6,7 @@
   <h1>Projects</h1>
     <Repo name="m" desc="CLI music controller" url="https://github.com/thomascpowell/m"/>
     <Repo name="lift" desc="Workout tracker" url="https://github.com/thomascpowell/lift"/>
-    <Repo name="pomo" desc="Pomodoro timer" url="pomo.pwl.red"/>
+    <Repo name="pomo" desc="Pomodoro timer" url="https://pomo.thomas.loan"/>
 </div>
 
 <style>
