@@ -1,1 +1,1 @@
-Personal website, built with svelte. 
+Personal website, built with Svelte. 
