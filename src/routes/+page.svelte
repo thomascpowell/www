@@ -7,7 +7,7 @@
   <h1>Thomas Powell</h1>
   <p>
     Senior at UNCW.
-    Learning CS/SWE & building projects.
+    Learning CS & building projects.
   </p>
   <div class="links">
     <Outlink href="https://github.com/thomascpowell" text="Github"/>
