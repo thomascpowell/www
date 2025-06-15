@@ -6,14 +6,14 @@
 <div class="header">
   <h1>Thomas Powell</h1>
   <p>
-    I'm a student learning CS and SWE. Senior at UNCW.
+    Senior at UNCW.
+    Learning CS/SWE & building projects.
   </p>
   <div class="links">
     <Outlink href="https://github.com/thomascpowell" text="Github"/>
     <Outlink href="mailto:thomascoxpowell@gmail.com" text="Email"/>
   </div>
 </div>
-
 <Repos/>
 
 <style>
