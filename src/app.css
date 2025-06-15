@@ -12,11 +12,9 @@
 }
 
 :root {
-  --bg: rgb(16, 15, 15);
-  --bg2: rgb(28, 27, 26);
-  --text: rgb(207, 207, 202);
-  --text2: rgb(135, 133, 128);
-  --border: rgb(64, 62, 60);
+  --bg: #111110;
+  --text: #eeeeec;
+  --text2: #b5b3ad;
 }
 
 body {
