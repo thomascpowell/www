@@ -5,9 +5,8 @@
 </script>
 
 <div>
-  <a target="_blank" rel="noopener noreferrer" href={url}>{desc}</a>
-  <span></span>
-  <p>"{name}"</p>
+  <a target="_blank" rel="noopener noreferrer" href={url}>--> {desc}</a>
+  <p>{name}</p>
 </div>
 
 <style>
@@ -18,31 +17,26 @@
     justify-content: space-between;
   }
   p {
-    /* min-width: 2em; */
+    /* min-width: 5em; */
     /* padding-right: 1em; */
     color: var(--text2);
     font-size: 1em;
   }
-  span {
-    flex-grow: 1;
-    border-bottom: .08em solid var(--text2);
-    transform: translateY(0.1em);
-  }
+
   a {
-    color: var(--text);
+    color: var(--text2);
     font-size: 1em;
     cursor: pointer;
     width: min-content;
     white-space: nowrap;
-    text-decoration: underline;
-    text-decoration-thickness: .08em;
+    text-decoration: none;
+    /* text-decoration-thickness: .08em; */
     text-decoration-color: var(--text);
     transition: 
-      text-decoration-color .3s ease-in-out,
+      text-decoration-color .2s ease-in-out,
       color .3s ease-in-out;
   }
   a:hover {
     color: var(--text);
-    text-decoration-color: transparent;
   }
 </style>
