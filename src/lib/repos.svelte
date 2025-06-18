@@ -27,7 +27,7 @@
   }
   span {
     flex-grow: 1;
-    border-bottom: .1em solid var(--text2);
+    border-bottom: .08em solid var(--text2);
     transform: translateY(0.08em);
   }
 </style>
