@@ -2,12 +2,15 @@
   import Repo from "$lib/repo.svelte"
 </script>
 
-
 <div>
-  <h2>Projects<span></span></h2>
+  <h2>Featured<span></span></h2>
   <Repo name="m" desc="Music.app CLI" url="https://github.com/thomascpowell/m"/>
   <Repo name="lift" desc="Workout tracker" url="https://github.com/thomascpowell/lift"/>
+</div>
+<div>
+  <h2>Other<span></span></h2>
   <Repo name="tomato" desc="Pomodoro timer" url="https://pomo.thomas.loan"/>
+  <Repo name="checkers" desc="CLI checkers game" url="https://github.com/thomascpowell/checkers"/>
 </div>
 
 <style>

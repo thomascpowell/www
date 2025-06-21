@@ -17,8 +17,6 @@
     justify-content: space-between;
   }
   p {
-    /* min-width: 5em; */
-    /* padding-right: 1em; */
     color: var(--text2);
     font-size: 1em;
   }
