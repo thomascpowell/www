@@ -15,7 +15,6 @@
     flex-direction: column;
     gap: 0.5em;
     max-width: 100%;
-    overflow: scroll;
   }
   h2 {
     display: flex;
