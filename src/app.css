@@ -12,6 +12,11 @@
   vertical-align: baseline;
 }
 
+html, body {
+  height: 100%;
+  overflow: hidden;
+}
+
 :root {
   --bg: #111111;
   --bg2: #191919;
