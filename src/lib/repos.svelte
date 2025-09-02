@@ -3,9 +3,9 @@
 </script>
 
 <div>
-  <h2>Projects<span></span></h2>
-  <Repo name="m" desc="Music.app CLI" url="https://github.com/thomascpowell/m"/>
-  <Repo name="lift" desc="Workout tracker" url="https://github.com/thomascpowell/lift"/>
+  <h2>Featured<span></span></h2>
+  <Repo name="m" desc="Music.app TUI remote" url="https://github.com/thomascpowell/m"/>
+  <Repo name="drive" desc="Selfhosted file storage" url="https://github.com/thomascpowell/drive"/>
 </div>
 
 <style>
@@ -24,7 +24,7 @@
   }
   span {
     flex-grow: 1;
-    border-bottom: .08em solid var(--text2);
+    border-bottom: .1em solid var(--border);
     transform: translateY(0.08em);
   }
 </style>

@@ -6,8 +6,8 @@
 <div class="header">
   <h1>Thomas Powell</h1>
   <p>
-    Senior at UNCW.
-    Learning CS and SWE.
+    Senior at UNCW, studying Computer Science.
+    <!-- Interested in fullstack web development with languages such as Go and TypeScript. -->
   </p>
   <div class="links">
     <Outlink href="https://github.com/thomascpowell" text="Github"/>
