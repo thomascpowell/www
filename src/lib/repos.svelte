@@ -25,6 +25,5 @@
   span {
     flex-grow: 1;
     border-bottom: .1em solid var(--border);
-    transform: translateY(0.08em);
   }
 </style>
