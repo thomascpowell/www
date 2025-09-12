@@ -4,37 +4,28 @@
   export let url: string = "";
 </script>
 
-<div>
-  <a target="_blank" rel="noopener noreferrer" href={url}>--> {desc}</a>
-  <p>{name}</p>
-</div>
+<a href={url} target="_blank" rel="noopener noreferrer">
+  <p >{desc}</p>
+  <p>--></p>
+</a>
 
 <style>
-  div {
+  a {
     display: flex;
     gap: 1em;
     align-items: center;
+    text-decoration: none;
     justify-content: space-between;
   }
   p {
     color: var(--text2);
     font-size: 1em;
-  }
-
-  a {
-    color: var(--text2);
-    font-size: 1em;
     cursor: pointer;
     width: min-content;
     white-space: nowrap;
-    text-decoration: none;
-    /* text-decoration-thickness: .08em; */
-    text-decoration-color: var(--text);
-    transition: 
-      text-decoration-color .2s ease-in-out,
-      color .3s ease-in-out;
+    transition: color 0.3s ease;
   }
-  a:hover {
+  a:hover > p {
     color: var(--text);
   }
 </style>

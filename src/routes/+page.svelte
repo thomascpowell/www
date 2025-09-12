@@ -1,20 +1,19 @@
 <script>
-  import Repos from '$lib/repos.svelte';
-  import Outlink from "$lib/outlink.svelte"
+  import Repos from "$lib/repos.svelte";
+  import Outlink from "$lib/outlink.svelte";
 </script>
 
 <div class="header">
   <h1>Thomas Powell</h1>
   <p>
-    Senior at UNCW, studying Computer Science.
-    <!-- Interested in fullstack web development with languages such as Go and TypeScript. -->
+    Senior at UNCW, studying computer science.
   </p>
   <div class="links">
-    <Outlink href="https://github.com/thomascpowell" text="Github"/>
-    <Outlink href="mailto:thomascoxpowell@gmail.com" text="Email"/>
+    <Outlink href="https://github.com/thomascpowell" text="GitHub" />
+    <Outlink href="mailto:thomascoxpowell@gmail.com" text="Email" />
   </div>
 </div>
-<Repos/>
+<Repos />
 
 <style>
   .header {
@@ -30,6 +29,6 @@
     font-size: 1.2em;
   }
   p {
-    color: var(--text2)
+    color: var(--text2);
   }
 </style>

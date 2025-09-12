@@ -3,9 +3,10 @@
 </script>
 
 <div>
-  <h2>Featured<span></span></h2>
-  <Repo name="m" desc="Music.app TUI remote" url="https://github.com/thomascpowell/m"/>
+  <h2>Projects<span></span></h2>
   <Repo name="drive" desc="Selfhosted file storage" url="https://github.com/thomascpowell/drive"/>
+  <Repo name="redis" desc="Redis-like database" url="https://github.com/thomascpowell/redis"/>
+  <Repo name="m" desc="Music.app TUI" url="https://github.com/thomascpowell/music-tui"/>
 </div>
 
 <style>
